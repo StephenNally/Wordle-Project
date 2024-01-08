@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Wordle Game"
+             x:Class="Wordle_Project_Final.MainPage">
+
+    <VerticalStackLayout>
+        <Grid x:Name="GameGrid" HeightRequest="400" WidthRequest="380" Padding="8" ColumnSpacing="3" RowSpacing="3" HorizontalOptions="Center"
+              RowDefinitions="*,*,*,*,*,*" ColumnDefinitions="*,*,*,*,*" >
+            <!--Row 1-->
+            <Frame Grid.Row="0" Grid.Column="0" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="0" Grid.Column="1" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="0" Grid.Column="2" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="0" Grid.Column="3" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="0" Grid.Column="4" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <!--Row 2-->
+            <Frame Grid.Row="1" Grid.Column="0" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="1" Grid.Column="1" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="1" Grid.Column="2" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="1" Grid.Column="3" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="1" Grid.Column="4" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <!--Row 3-->
+            <Frame Grid.Row="2" Grid.Column="0" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="2" Grid.Column="1" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="2" Grid.Column="2" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="2" Grid.Column="3" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="2" Grid.Column="4" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <!--Row 4-->
+            <Frame Grid.Row="3" Grid.Column="0" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="3" Grid.Column="1" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="3" Grid.Column="2" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="3" Grid.Column="3" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="3" Grid.Column="4" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <!--Row 5-->
+            <Frame Grid.Row="4" Grid.Column="0" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="4" Grid.Column="1" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="4" Grid.Column="2" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="4" Grid.Column="3" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="4" Grid.Column="4" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <!--ROw 6-->
+            <Frame Grid.Row="5" Grid.Column="0" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="5" Grid.Column="1" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="5" Grid.Column="2" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="5" Grid.Column="3" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="5" Grid.Column="4" BackgroundColor="White" BorderColor="CadetBlue">
+                <Label Text="" FontSize="30" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+        </Grid>
+        
+        <!--Keyboard-->
+        <VerticalStackLayout>
+            <Entry x:Name="UserInput" TextColor="White" WidthRequest="100" HorizontalTextAlignment="Center" IsVisible="False" IsEnabled="False" MaxLength="5" Placeholder="-----">
+                <Entry.Keyboard>
+                    <Keyboard x:FactoryMethod="Create">
+                        <x:Arguments>
+                            <KeyboardFlags>CapitalizeCharacter</KeyboardFlags>
+                        </x:Arguments>
+                    </Keyboard>
+                </Entry.Keyboard>
+            </Entry>
+            <!--New word button-->
+            <Button x:Name="NewWord" Text="New Word" Clicked="NewWord_Clicked" WidthRequest="100" Margin="8"></Button>
+            <!--Enter button-->
+            <Button x:Name="EnterButton" Text="Enter" Clicked="EnterButton_Clicked" WidthRequest="100" Margin="8" IsVisible="False" IsEnabled="False"></Button>
+            <!--Reset button-->
+            <Button x:Name="ResetButton" Text="Reset Game" Clicked="ResetGame_Clicked" WidthRequest="100" Margin="8" IsVisible="False" IsEnabled="False"></Button>
+            
+        </VerticalStackLayout>
+        
+    </VerticalStackLayout>
+
+</ContentPage>
